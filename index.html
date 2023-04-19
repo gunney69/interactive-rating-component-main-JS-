@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style_thank-you-state.css">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+
+<body>
+  <main>
+    <!-- Rating state start -->
+
+    <div class="container">
+      <div  id="rating">
+        <img class="img_star" src="images/icon-star.svg" alt="img_star">
+        
+        <div class="container_text">
+          <h1> How did we do?</h1>
+          
+          <p>Please let us know how we did with your support request.  
+          All feedback is appreciated to help us improve our offering!</p>
+        </div>
+
+        <div class="container_btn">
+          <button id="1" class="vote">1</button>
+          <button id="2" class="vote">2</button>  
+          <button id="3" class="vote">3</button>
+          <button id="4" class="vote">4</button>
+          <button id="5" class="vote">5</button>
+        </div>
+        <a  class="bottone" href="#">SUBMIT
+        </a>
+      </div>  
+        <!-- Rating state end -->
+
+        <!-- Thank you state start -->
+
+        <div id="results">
+          <img src="images/illustration-thank-you.svg" alt="img_thank-you">
+
+          <p class="container_selected_rating"></p>
+
+          <div class="container_text_thank-you">
+            <h1>Thank you!</h1>
+            <p> We appreciate you taking the time to give a rating. <br>
+            If you ever need more support, don’t hesitate to <br>
+            get in touch!</p>
+          </div>
+        </div>
+    </div>
+    <!-- Thank you state end -->
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/gunney69" target="_blank">Gustavo</a>.
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>

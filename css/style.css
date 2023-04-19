@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: 'overpass', sans-serif;
+}
+
+body {
+    background-color: rgb(18, 20, 23);
+    min-height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+    flex-direction: column;
+}
+.hide {
+    visibility: hidden;
+}
+
+.selected {
+    color: hsl(0, 0%, 100%) !important;
+    background-color: rgb(65, 148, 225) !important;
+}
+
+.container {
+    background-color: rgb(26, 33, 43);
+    min-height: 40vh;
+    min-width: 45vh;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.img_star {
+    background-color: rgb(37, 45, 55);
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.container_text {
+    max-width: 40vh;
+    color: white;
+}
+
+p {
+    color: rgb(124, 133, 146);
+    margin: 0;
+    font-size: 16px;
+}
+
+.container_btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 25px 0px 25px 0px;
+}
+
+.vote {
+    background-color: rgb(37, 45, 55);
+    color: rgb(65, 148, 225);
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    border-style: none;
+    padding: 15px;
+    border-radius: 50%;
+    min-width: 12%;
+    height: auto;
+    line-height: 15px;
+}
+
+.vote:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(149, 158, 172);
+    transition: all 0.4s;
+}
+
+.bottone {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    height: 2.8rem;
+    line-height: 3rem;
+    font-weight: 700;
+    border-radius: 2rem;
+    background-color: rgb(65, 148, 225);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.bottone:hover {
+    background-color: white;
+    color: rgb(65, 148, 225);
+    transition: all 0.4s;
+}
+
+.attribution {
+    color: rgb(124, 133, 146);
+    padding-top: 15px;
+  }
+
+  .attribution a {
+    color: rgb(124, 133, 146);
+  }
+
+  .attribution a:hover {
+    color: rgb(65, 148, 225);
+    transition: all 0.4s;
+  }

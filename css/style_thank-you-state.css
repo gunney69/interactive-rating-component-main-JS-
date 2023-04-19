@@ -1,0 +1,35 @@
+#results {
+    display: none;
+    text-align: center;
+}
+
+
+.container_selected_rating {
+    margin: 30px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    background-color: rgb(37, 45, 55);
+    color: rgb(65, 148, 225);
+    border-radius: 40px;
+}
+
+.container_text_thank-you {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    max-width: 40vh;
+    color: white;
+}
+
+.container_text_thank-you h1 {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.container_text_thank-you p {
+    color: rgb(124, 133, 146);
+    margin: 0;
+    font-size: 16px;
+}
